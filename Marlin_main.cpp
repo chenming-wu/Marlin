@@ -3638,9 +3638,9 @@ void manage_inactivity()
         disable_x();
         disable_y();
         disable_z();
-        disable_e0();
-        disable_e1();
-        disable_e2();
+        //disable_e0();
+        //disable_e1();
+        //disable_e2();
       }
     }
   }
