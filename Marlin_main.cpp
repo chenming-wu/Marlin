@@ -1249,8 +1249,8 @@ void process_commands()
     case 1: // G1
       if(Stopped == false) {
         get_coordinates(); // For X Y Z E F
-        prepare_move();
-        //ClearToSend();
+		prepare_move();
+        SERIAL_PROTOCOLLNPGM("END");
         return;
       }
       //break;
@@ -1531,6 +1531,7 @@ void process_commands()
       feedmultiply = saved_feedmultiply;
       previous_millis_cmd = millis();
       endstops_hit_on_purpose();
+	  SERIAL_PROTOCOLLNPGM("END");
       break;
 
 #ifdef ENABLE_AUTO_BED_LEVELING

@@ -10,7 +10,7 @@
 #ifdef MY_ENABLE_BLUETOOTH
 	#define MY_BAUDRATE 9600
 #else
-	#define MY_BAUDRATE 250000
+	#define MY_BAUDRATE 115200
 #endif
 
 #ifdef MY_ENABLE_BLUETOOTH

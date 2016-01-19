@@ -573,9 +573,7 @@ void plan_buffer_line(const float &x, const float &y, const float &z, const floa
     }
     #endif
   }
-  #endif
-  */
-  
+  #endif*/
   // Prepare to set up new block
   block_t *block = &block_buffer[block_buffer_head];
 

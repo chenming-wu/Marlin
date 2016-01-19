@@ -45,10 +45,10 @@
 #define MY_Z_retract_z_probe_Position 28 //33
 
 // For deltabots this means top and center of the Cartesian print volume.
-// xyz轴Home位置
+// xyz轴Home位置
 #define MY_MANUAL_X_HOME_POS 0
 #define MY_MANUAL_Y_HOME_POS 0
-#define MY_MANUAL_Z_HOME_POS 280//179.5//180.3
+#define MY_MANUAL_Z_HOME_POS 238.7//179.5//180.3
 // For delta: Distance between nozzle and print surface after homing.
 
 // 回Home的速度控制，速度单位:毫米/秒
