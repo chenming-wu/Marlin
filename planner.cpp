@@ -553,6 +553,7 @@ void plan_buffer_line(const float &x, const float &y, const float &z, const floa
   target[Z_AXIS] = lround(z*axis_steps_per_unit[Z_AXIS]);     
   target[E_AXIS] = lround(e*axis_steps_per_unit[E_AXIS]);
 
+  /*
   #ifdef PREVENT_DANGEROUS_EXTRUDE
   if(target[E_AXIS]!=position[E_AXIS])
   {
@@ -573,7 +574,8 @@ void plan_buffer_line(const float &x, const float &y, const float &z, const floa
     #endif
   }
   #endif
-
+  */
+  
   // Prepare to set up new block
   block_t *block = &block_buffer[block_buffer_head];
 
